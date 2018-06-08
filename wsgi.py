@@ -7,7 +7,7 @@ def hello():
 
 @application.route('/hello/')
 @application.route('/hello/<name>')
-def hello(name='Bob'):
+def helloname(name='Bob'):
     return render_template('index.html', name=name)
 
 if __name__ == "__main__":
