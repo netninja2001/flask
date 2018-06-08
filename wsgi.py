@@ -28,7 +28,7 @@ def names():
         <td>Jackson</td> 
         <td>94</td>
     </tr>
-</table>'''i
+</table>'''
     return render_template('index.html', name='admin', table=table)
 
 if __name__ == "__main__":
